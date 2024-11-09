@@ -91,8 +91,8 @@ def create_balanced_splits(common_file, iov_file, oov_file, lang, train_size=0.7
         split_and_save(input_file, prefix)
 
 
-LANG = "hi"
-LANG_FULL = "hindi"
+LANG = "en"
+LANG_FULL = "english"
 path_to_common_file = f"{LANG_FULL}/WaW_{LANG}_all.tsv"
 path_to_IOV_file = f"{LANG_FULL}/WaW_{LANG}_IOV.tsv"
 path_to_OOV_file = f"{LANG_FULL}/WaW_{LANG}_OOV.tsv"

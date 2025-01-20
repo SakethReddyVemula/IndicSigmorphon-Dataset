@@ -275,14 +275,15 @@ def create_tsv_with_presence_check(corpus_file, output_OOV_file, output_IOV_file
 
 
 
-LANG = "hi"
-LANG_FULL = "hindi"
-corpus_file = f'/media/saketh/New Volume/NAACL 2025/Datasets/{LANG}/{LANG}_10M_splits.txt'  # 4GB large corpus file
+LANG = "ml"
+LANG_FULL = "malayalam"
+# corpus_file = f'/media/saketh/New Volume/NAACL 2025/Datasets/{LANG}/{LANG}_10M_splits.txt'  # 4GB large corpus file
+corpus_file = f'/media/saketh/New Volume/NAACL 2025/news-crawl/{LANG}/{LANG}_crawl.txt'
 output_OOV_file = f'{LANG_FULL}/WaW_{LANG}_OOV.tsv'
 output_IOV_file = f'{LANG_FULL}/WaW_{LANG}_IOV.tsv'
 output_common_file = f'{LANG_FULL}/WaW_{LANG}_all.tsv'
 
-iwn = pyiwn.IndoWordNet(lang=pyiwn.Language.HINDI)
+iwn = pyiwn.IndoWordNet(lang=pyiwn.Language.MALAYALAM)
 
 # Create the TSV file
 create_tsv_with_presence_check(corpus_file, output_OOV_file, output_IOV_file, output_common_file)

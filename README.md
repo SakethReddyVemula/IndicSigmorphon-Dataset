@@ -1,6 +1,9 @@
 # IndicSIGMORPHON Dataset Preparation
 
 ## WaW: Word and Word
+
++ Link to Word and Word Data: [WaW](https://github.com/SakethReddyVemula/IndicSigmorphon-Dataset/tree/main/Final_Dataset)
+
 Classify whether two words in input are semantically related to one another.
 
 ### Data
@@ -127,8 +130,6 @@ Till date, `WaW` data for following languages are prepared:
 |   train  |   37553           |
 |   dev      |   10729           |
 |   test      |   5365           |
-
-+ Link to Word and Word Data: [WaW](https://github.com/SakethReddyVemula/IndicSigmorphon-Dataset/tree/main/Final_Dataset)
 
 ## Word and Definition
 

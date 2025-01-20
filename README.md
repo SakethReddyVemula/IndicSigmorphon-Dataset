@@ -129,3 +129,11 @@ Till date, `WaW` data for following languages are prepared:
 |   test      |   5365           |
 
 + Link to Word and Word Data: [WaW](https://github.com/SakethReddyVemula/IndicSigmorphon-Dataset/tree/main/Final_Dataset)
+
+## Word and Definition
+
+Discarded due to inability of generalization
+
+## Word and Morphology
+
+Discarded for now due to very limited Indian Language support

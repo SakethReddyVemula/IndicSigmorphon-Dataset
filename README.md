@@ -1,5 +1,7 @@
 # IndicSIGMORPHON Dataset Preparation
 
+Original Sigmorphon Task: [Sigmorphon2024: Subword Tokenization](https://github.com/sigmorphon/2024TokenST)
+
 ## WaW: Word and Word
 
 + Link to Word and Word Data: [WaW](https://github.com/SakethReddyVemula/IndicSigmorphon-Dataset/tree/main/Final_Dataset)
